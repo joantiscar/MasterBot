@@ -4,7 +4,7 @@ module.exports = {
 	guildOnly: true,
 	execute(message, args) {
 		if (!message.mentions.users.size) {
-			return message.reply('you need to tag a user in order to kick them!')
+			return message.reply('bro, no puedes pegar una patada a la nada, dime a quién pego')
 		}
 		// grab the "first" mentioned user from the message
 		// this will return a `User` object, just like `message.author`
