@@ -10,6 +10,6 @@ module.exports = {
 		// this will return a `User` object, just like `message.author`
 		const taggedUser = message.mentions.users.first()
 
-		message.channel.send(`You wanted to kick: ${taggedUser.username}`)
+		message.channel.send(`Le has dado una patada a: ${taggedUser.username}`)
 	},
 }
