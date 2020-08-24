@@ -2,3 +2,4 @@ node_modules/
 config.json
 .idea/
 .history/
+saved-data.json
